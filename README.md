@@ -1,5 +1,6 @@
 # consciencia_livre/Projeto pessoal 
 Bem-vindo ao meu repositório!
+
 Aqui organizo todos os artigos, referências e menus do meu blog pessoal.
 
 ## Estrutura do repositório 
