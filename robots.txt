@@ -1,0 +1,6 @@
+User-agent: *
+
+Allow: /
+
+Sitemap:
+https://landulfojunior.github.io/consciencia_livre/sitemap.xml
