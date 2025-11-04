@@ -1,0 +1,62 @@
+body{
+ background-image: repeating-linear-gradient(45deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3) 1px, transparent 1px, transparent 20px);
+}
+.lista-artigos{
+ max-width: 800px;
+ margin: 80px auto;
+ padding: 20px;
+ background-color: yellow;
+ border-radius: 16px;
+ box-shadow: 0 0 20px rgba(0,0,0,0.1);
+ text-align: left;
+}
+.menu a{
+ text-decoration: none;
+ font-size: 14px;
+ background-color: #000;
+ color: white;
+ position: fixed;
+ top: 20px;
+ left: 20px;
+ padding: 10px 14px;
+ border-radius: 6px;
+}
+.lista-artigos h1{
+ font-size: 1.8rem;
+ margin-bottom: 5px;
+ color: #222;
+}
+.lista-artigos p{
+ font-style: italic;
+ color: #555;
+ margin-bottom: 20px;
+}
+.lista-artigos ol{
+ list-style-position: inside;
+}
+.lista-artigos li{
+ margin-bottom: 12px;
+}
+.lista-artigos a{
+ position: relative;
+ color: #0033cc;
+ text-decoration: none;
+ trasition: color 0.3s ease;
+}
+.lista-artigos a::after{
+ content: "";
+ position: absolute;
+ left: 0;
+ bottom: 0;
+ width: 0;
+ height: 2px;
+ background-color: #0099ff;
+ trasition: width 0.3s ease;
+}
+.lista-artigos a:hover::after, .lista-artigos a::active::after{
+ width: 100%;
+}
+.lista-artigos a:hover{
+ color: #000;
+ text-decoration: underline;
+}
