@@ -1,4 +1,4 @@
-# consciencia_livre/Projeto pessoal 
+# consciencia_desperta/Projeto pessoal 
 Bem-vindo ao meu repositório!
 
 Aqui organizo todos os artigos, referências e menus do meu blog pessoal.
@@ -17,4 +17,4 @@ Aqui organizo todos os artigos, referências e menus do meu blog pessoal.
   1. Clone este repositório:
   ```bash git clone
 
-  https://github.com/landulfojunior/consciencia_livre.git
+  https://github.com/landulfojunior/consciencia_desperta.git
